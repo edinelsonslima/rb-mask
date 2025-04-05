@@ -1,37 +1,32 @@
 {
   "name": "@react-bunker/input-mask",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "@edinelsonslima",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edinelsonslima/toast-notification.git"
+    "url": "git+https://github.com/edinelsonslima/rb-mask.git"
   },
   "bugs": {
-    "url": "https://github.com/edinelsonslima/toast-notification/issues"
+    "url": "https://github.com/edinelsonslima/rb-mask/issues"
   },
-  "homepage": "https://github.com/edinelsonslima/toast-notification#readme",
+  "homepage": "https://github.com/edinelsonslima/rb-mask/lib#readme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.es.js",
       "browser": "./dist/index.es.js"
-    },
-    "./style.css": {
-      "import": "./dist/style.css",
-      "require": "./dist/style.css"
     }
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "keywords": [
-    "toast",
-    "notification",
-    "react",
-    "vite"
+    "mask",
+    "input",
+    "react"
   ],
   "publishConfig": {
     "access": "public",

@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@react-bunker/toast-notification':
-        specifier: ^0.0.7
-        version: 0.0.7
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -397,9 +394,6 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
-
-  '@react-bunker/toast-notification@0.0.7':
-    resolution: {integrity: sha512-0+kQQ0mK3wgzwPpD9P1O+z8/xbBeDrNNyp8MRV+SE/8ktHDR4U54fvjKsq+VvW6xwH2TEhC5u2FT4PCrFFBQLg==}
 
   '@rollup/pluginutils@5.1.4':
     resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
@@ -1676,8 +1670,6 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
-
-  '@react-bunker/toast-notification@0.0.7': {}
 
   '@rollup/pluginutils@5.1.4(rollup@4.39.0)':
     dependencies:

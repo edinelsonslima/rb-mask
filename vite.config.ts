@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      // rollupTypes: true, //Ta com bug no @microsoft/api-extractor, não ta unindo os tipos em um único arquivo
+      rollupTypes: true, //Ta com bug no @microsoft/api-extractor, não ta unindo os tipos em um único arquivo
       insertTypesEntry: true,
       exclude: ["src/app"],
       tsconfigPath: './tsconfig.app.json',
@@ -20,6 +20,7 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: 'lib/dist',
     copyPublicDir: false,
     lib: {
       name: 'rb-mask',
